@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC1EE282203F8827002EA62E /* LoggableEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE281203F8827002EA62E /* LoggableEvents.swift */; };
+		BC1EE285203F88C4002EA62E /* PaginatedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE284203F88C4002EA62E /* PaginatedResponse.swift */; };
+		BC1EE288203F8903002EA62E /* ClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE287203F8903002EA62E /* ClientError.swift */; };
+		BC1EE28A203F8947002EA62E /* AnyPayPalHereError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE289203F8947002EA62E /* AnyPayPalHereError.swift */; };
+		BC1EE28C203F896A002EA62E /* BasicError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE28B203F896A002EA62E /* BasicError.swift */; };
+		BC1EE297203F8AA8002EA62E /* Claims.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE28F203F8AA8002EA62E /* Claims.swift */; };
+		BC1EE298203F8AA8002EA62E /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE290203F8AA8002EA62E /* Coupon.swift */; };
+		BC1EE299203F8AA8002EA62E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE291203F8AA8002EA62E /* Error.swift */; };
+		BC1EE29A203F8AA8002EA62E /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE292203F8AA8002EA62E /* Provider.swift */; };
+		BC1EE29B203F8AA8002EA62E /* ViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE293203F8AA8002EA62E /* ViewProvider.swift */; };
+		BC1EE29C203F8AA8002EA62E /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE294203F8AA8002EA62E /* Type.swift */; };
+		BC1EE29D203F8AA8002EA62E /* ProviderEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE295203F8AA8002EA62E /* ProviderEx.swift */; };
+		BC1EE29E203F8AA8002EA62E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE296203F8AA8002EA62E /* Result.swift */; };
+		BC1EE2A2203F8AB5002EA62E /* PayPalHereErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE29F203F8AB5002EA62E /* PayPalHereErrorType.swift */; };
+		BC1EE2A3203F8AB5002EA62E /* ValidationErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2A0203F8AB5002EA62E /* ValidationErrorType.swift */; };
+		BC1EE2A4203F8AB5002EA62E /* KeyValueObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2A1203F8AB5002EA62E /* KeyValueObserver.swift */; };
+		BC1EE2AD203F8ADA002EA62E /* PayPalHereClient+ConnectionCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2A5203F8AD9002EA62E /* PayPalHereClient+ConnectionCounter.swift */; };
+		BC1EE2AE203F8ADA002EA62E /* URLRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2A6203F8AD9002EA62E /* URLRequestFactory.swift */; };
+		BC1EE2AF203F8ADA002EA62E /* SessionConfigurationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2A7203F8ADA002EA62E /* SessionConfigurationFactory.swift */; };
+		BC1EE2B0203F8ADA002EA62E /* MultipartForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2A8203F8ADA002EA62E /* MultipartForm.swift */; };
+		BC1EE2B1203F8ADA002EA62E /* PayPalHereClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2A9203F8ADA002EA62E /* PayPalHereClient.swift */; };
+		BC1EE2B2203F8ADA002EA62E /* PayPalHereClientWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2AA203F8ADA002EA62E /* PayPalHereClientWrapper.swift */; };
+		BC1EE2B3203F8ADA002EA62E /* PayPalHereClient+Providers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2AB203F8ADA002EA62E /* PayPalHereClient+Providers.swift */; };
+		BC1EE2B4203F8ADA002EA62E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2AC203F8ADA002EA62E /* Task.swift */; };
+		BC1EE2B6203F8B3E002EA62E /* DictionaryDeserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2B5203F8B3E002EA62E /* DictionaryDeserialization.swift */; };
+		BC1EE2B8203F8B6F002EA62E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2B7203F8B6E002EA62E /* Environment.swift */; };
+		BC1EE2BC203F8C3F002EA62E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1EE2BB203F8C3F002EA62E /* String.swift */; };
 		BCD06CCE1FD1CABD0020EE01 /* ThreeRingControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD06CC41FD1CABD0020EE01 /* ThreeRingControl.framework */; };
 		BCD06CD31FD1CABE0020EE01 /* ThreeRingControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD06CD21FD1CABE0020EE01 /* ThreeRingControlTests.swift */; };
 		BCD06CD51FD1CABE0020EE01 /* ThreeRingControl.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD06CC71FD1CABD0020EE01 /* ThreeRingControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +57,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC1EE281203F8827002EA62E /* LoggableEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggableEvents.swift; sourceTree = "<group>"; };
+		BC1EE284203F88C4002EA62E /* PaginatedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedResponse.swift; sourceTree = "<group>"; };
+		BC1EE287203F8903002EA62E /* ClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientError.swift; sourceTree = "<group>"; };
+		BC1EE289203F8947002EA62E /* AnyPayPalHereError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyPayPalHereError.swift; sourceTree = "<group>"; };
+		BC1EE28B203F896A002EA62E /* BasicError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicError.swift; sourceTree = "<group>"; };
+		BC1EE28F203F8AA8002EA62E /* Claims.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Claims.swift; sourceTree = "<group>"; };
+		BC1EE290203F8AA8002EA62E /* Coupon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		BC1EE291203F8AA8002EA62E /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		BC1EE292203F8AA8002EA62E /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		BC1EE293203F8AA8002EA62E /* ViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProvider.swift; sourceTree = "<group>"; };
+		BC1EE294203F8AA8002EA62E /* Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Type.swift; sourceTree = "<group>"; };
+		BC1EE295203F8AA8002EA62E /* ProviderEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderEx.swift; sourceTree = "<group>"; };
+		BC1EE296203F8AA8002EA62E /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		BC1EE29F203F8AB5002EA62E /* PayPalHereErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayPalHereErrorType.swift; sourceTree = "<group>"; };
+		BC1EE2A0203F8AB5002EA62E /* ValidationErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationErrorType.swift; sourceTree = "<group>"; };
+		BC1EE2A1203F8AB5002EA62E /* KeyValueObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueObserver.swift; sourceTree = "<group>"; };
+		BC1EE2A5203F8AD9002EA62E /* PayPalHereClient+ConnectionCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PayPalHereClient+ConnectionCounter.swift"; sourceTree = "<group>"; };
+		BC1EE2A6203F8AD9002EA62E /* URLRequestFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestFactory.swift; sourceTree = "<group>"; };
+		BC1EE2A7203F8ADA002EA62E /* SessionConfigurationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionConfigurationFactory.swift; sourceTree = "<group>"; };
+		BC1EE2A8203F8ADA002EA62E /* MultipartForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartForm.swift; sourceTree = "<group>"; };
+		BC1EE2A9203F8ADA002EA62E /* PayPalHereClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayPalHereClient.swift; sourceTree = "<group>"; };
+		BC1EE2AA203F8ADA002EA62E /* PayPalHereClientWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayPalHereClientWrapper.swift; sourceTree = "<group>"; };
+		BC1EE2AB203F8ADA002EA62E /* PayPalHereClient+Providers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PayPalHereClient+Providers.swift"; sourceTree = "<group>"; };
+		BC1EE2AC203F8ADA002EA62E /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		BC1EE2B5203F8B3E002EA62E /* DictionaryDeserialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryDeserialization.swift; sourceTree = "<group>"; };
+		BC1EE2B7203F8B6E002EA62E /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		BC1EE2BB203F8C3F002EA62E /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		BCD06CC41FD1CABD0020EE01 /* ThreeRingControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreeRingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD06CC71FD1CABD0020EE01 /* ThreeRingControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeRingControl.h; sourceTree = "<group>"; };
 		BCD06CC81FD1CABD0020EE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +120,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC1EE27F203F871E002EA62E /* PayPalHereClient */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EE2BA203F8C1E002EA62E /* Extensions */,
+				BC1EE2B7203F8B6E002EA62E /* Environment.swift */,
+				BC1EE2B5203F8B3E002EA62E /* DictionaryDeserialization.swift */,
+				BC1EE2A8203F8ADA002EA62E /* MultipartForm.swift */,
+				BC1EE2A9203F8ADA002EA62E /* PayPalHereClient.swift */,
+				BC1EE2A5203F8AD9002EA62E /* PayPalHereClient+ConnectionCounter.swift */,
+				BC1EE2AB203F8ADA002EA62E /* PayPalHereClient+Providers.swift */,
+				BC1EE2AA203F8ADA002EA62E /* PayPalHereClientWrapper.swift */,
+				BC1EE2A7203F8ADA002EA62E /* SessionConfigurationFactory.swift */,
+				BC1EE2AC203F8ADA002EA62E /* Task.swift */,
+				BC1EE2A6203F8AD9002EA62E /* URLRequestFactory.swift */,
+				BC1EE28E203F89AA002EA62E /* protocol */,
+				BC1EE28D203F8994002EA62E /* Models */,
+				BC1EE286203F88DA002EA62E /* Errors */,
+				BC1EE283203F88A3002EA62E /* Pagination */,
+				BC1EE280203F87FA002EA62E /* Logging */,
+			);
+			path = PayPalHereClient;
+			sourceTree = "<group>";
+		};
+		BC1EE280203F87FA002EA62E /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EE281203F8827002EA62E /* LoggableEvents.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		BC1EE283203F88A3002EA62E /* Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EE284203F88C4002EA62E /* PaginatedResponse.swift */,
+			);
+			path = Pagination;
+			sourceTree = "<group>";
+		};
+		BC1EE286203F88DA002EA62E /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EE287203F8903002EA62E /* ClientError.swift */,
+				BC1EE289203F8947002EA62E /* AnyPayPalHereError.swift */,
+				BC1EE28B203F896A002EA62E /* BasicError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		BC1EE28D203F8994002EA62E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EE28F203F8AA8002EA62E /* Claims.swift */,
+				BC1EE290203F8AA8002EA62E /* Coupon.swift */,
+				BC1EE291203F8AA8002EA62E /* Error.swift */,
+				BC1EE292203F8AA8002EA62E /* Provider.swift */,
+				BC1EE295203F8AA8002EA62E /* ProviderEx.swift */,
+				BC1EE296203F8AA8002EA62E /* Result.swift */,
+				BC1EE294203F8AA8002EA62E /* Type.swift */,
+				BC1EE293203F8AA8002EA62E /* ViewProvider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC1EE28E203F89AA002EA62E /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EE2A1203F8AB5002EA62E /* KeyValueObserver.swift */,
+				BC1EE29F203F8AB5002EA62E /* PayPalHereErrorType.swift */,
+				BC1EE2A0203F8AB5002EA62E /* ValidationErrorType.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		BC1EE2BA203F8C1E002EA62E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC1EE2BB203F8C3F002EA62E /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		BCD06CBA1FD1CABD0020EE01 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +223,7 @@
 		BCD06CC61FD1CABD0020EE01 /* ThreeRingControl */ = {
 			isa = PBXGroup;
 			children = (
+				BC1EE27F203F871E002EA62E /* PayPalHereClient */,
 				BCD06CC71FD1CABD0020EE01 /* ThreeRingControl.h */,
 				BCD06CE11FD1CB0E0020EE01 /* CircularGradient.swift */,
 				BCD06CDE1FD1CB0E0020EE01 /* Fanfare.swift */,
@@ -222,12 +359,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC1EE297203F8AA8002EA62E /* Claims.swift in Sources */,
+				BC1EE2B8203F8B6F002EA62E /* Environment.swift in Sources */,
+				BC1EE2B3203F8ADA002EA62E /* PayPalHereClient+Providers.swift in Sources */,
+				BC1EE2A4203F8AB5002EA62E /* KeyValueObserver.swift in Sources */,
 				BCD06CE91FD1CB0E0020EE01 /* Utilities.swift in Sources */,
+				BC1EE29E203F8AA8002EA62E /* Result.swift in Sources */,
+				BC1EE298203F8AA8002EA62E /* Coupon.swift in Sources */,
+				BC1EE29D203F8AA8002EA62E /* ProviderEx.swift in Sources */,
+				BC1EE29C203F8AA8002EA62E /* Type.swift in Sources */,
+				BC1EE29B203F8AA8002EA62E /* ViewProvider.swift in Sources */,
 				BCD06CE71FD1CB0E0020EE01 /* CircularGradient.swift in Sources */,
 				BCD06CE81FD1CB0E0020EE01 /* RingTip.swift in Sources */,
+				BC1EE2BC203F8C3F002EA62E /* String.swift in Sources */,
 				BCD06CE41FD1CB0E0020EE01 /* Fanfare.swift in Sources */,
 				BCD06CE61FD1CB0E0020EE01 /* ThreeRingView.swift in Sources */,
+				BC1EE28C203F896A002EA62E /* BasicError.swift in Sources */,
+				BC1EE282203F8827002EA62E /* LoggableEvents.swift in Sources */,
+				BC1EE288203F8903002EA62E /* ClientError.swift in Sources */,
+				BC1EE285203F88C4002EA62E /* PaginatedResponse.swift in Sources */,
+				BC1EE2B6203F8B3E002EA62E /* DictionaryDeserialization.swift in Sources */,
+				BC1EE2A2203F8AB5002EA62E /* PayPalHereErrorType.swift in Sources */,
+				BC1EE28A203F8947002EA62E /* AnyPayPalHereError.swift in Sources */,
+				BC1EE2AD203F8ADA002EA62E /* PayPalHereClient+ConnectionCounter.swift in Sources */,
+				BC1EE299203F8AA8002EA62E /* Error.swift in Sources */,
+				BC1EE29A203F8AA8002EA62E /* Provider.swift in Sources */,
+				BC1EE2B4203F8ADA002EA62E /* Task.swift in Sources */,
 				BCD06CE51FD1CB0E0020EE01 /* RingLayer.swift in Sources */,
+				BC1EE2AE203F8ADA002EA62E /* URLRequestFactory.swift in Sources */,
+				BC1EE2A3203F8AB5002EA62E /* ValidationErrorType.swift in Sources */,
+				BC1EE2B0203F8ADA002EA62E /* MultipartForm.swift in Sources */,
+				BC1EE2B1203F8ADA002EA62E /* PayPalHereClient.swift in Sources */,
+				BC1EE2AF203F8ADA002EA62E /* SessionConfigurationFactory.swift in Sources */,
+				BC1EE2B2203F8ADA002EA62E /* PayPalHereClientWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
